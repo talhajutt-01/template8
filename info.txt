@@ -1,0 +1,139 @@
+{
+    "title": {
+        "title": "Updated Wave Cafe HTML Template by Tooplate"
+    },
+
+     "header": { 
+        //another section all elements are text
+        "h0": "Updated Wave Cafe",
+        "h1": "Updated Drink Menu",
+        "h2": "Updated About Us",
+        "h3": "Updated Special Items",
+        "h4": "Updated Contact"
+    },
+
+     "nav": {
+        //another section all elements are link
+        "nav0": "Iced Coffee",
+        "nav1": "Hot Coffee",
+        "nav2": "Fruit Juice"
+    },
+
+    "cold":{
+        //another section all elements are text
+        "s0":"updated Iced Americano",
+        "s1":"$10.25",
+        "s2":"updated Here is a short description for the first item. Wave Cafe Template is provided by Tooplate.",
+        "s3":"Iced Cappuccino",
+        "s4":"$12.50",
+        "s5":"Here is a list of 4 items or add more. You can use this template for commercial purposes.",
+        "s6":"Iced Espresso",
+        "s7":"$14.25",
+        "s8":"You are not permitted to redistribute this template ZIP file on any other template websites.",
+        "s9":"Iced Latte",
+        "s10":"$11.50",
+        "s11":"Contents are organized into 3 tabs. Please contact Tooplate if you have anything to ask."
+    },
+
+
+    "hot":{
+        //another section all elements are text
+        "b0":"updated Hot Americano",
+        "b1":"$8.50",
+        "b2":"Here is a short description for the item along with a squared thumbnail.",
+        "b3":"Hot Cappuccino",
+        "b4":"$9.50",
+        "b5":"Here is a list of 4 items or add more. Only content area will be scrolling.",
+        "b6":"Hot Espresso",
+        "b7":"$7.50",
+        "b8":"Left side logo and main menu are fixed. The video background is fixed.",
+        "b9":"Hot Latte",
+        "b10":"$6.50",
+        "b11":"Page contents are organized into 3 tabs to show different lists of items."
+    },
+
+
+    "juice":{
+        //another section all elements are text
+        "j0":"updated Strawberry Smoothie",
+        "j1":"$12.50",
+        "j2":"Here is a short description for the item along with a squared thumbnail.",
+        "j3":"Red Berry Smoothie",
+        "j4":"$14.50",
+        "j5":"Here is a list of 4 items or add more.You can use this template for commercial purposes.",
+        "j6":"Pineapple Smoothie",
+        "j7":"$16.50",
+        "j8":"Left side logo and main menu are fixed. The video background is fixed.",
+        "j9":"Spinach Smoothie",
+        "j10":"$16.50",
+        "j11":"You are not allowed to redistribute the template ZIP file on other template sites."
+    },
+
+     "about":{
+        //another section all elements are text
+        "a0":"update About Wave Cafe",
+        "a1":"update Wave Cafe is a one-page video background HTML CSS template from Tooplate. You can use this for your business websites.",
+        "a2":"update You can also use this for your client websites which you get paid for your website services. Please tell your friends about us.",
+        "a3":"update How we began",
+        "a4":"update If you wish to support us, please contact Tooplate. Thank you. Duis bibendum erat nec ipsum consectetur sodales.",
+        "a5":"update Donec non urna elit. Quisque ut magna in dui mattis iaculis eu finibus metus. Suspendisse vel mi a lacus finibus vehicula vel ut diam. Nam pellentesque, mi quis ullamcorper."
+     },
+
+     "special":{
+        //another section all elements are text
+        "i0":"update Special One",
+        "i1":"Here is a short text description for the first special item. You are not allowed to redistribute this template ZIP file.",
+        "i2":"Second Item",
+        "i3":"update You are allowed to download, modify and use this template for your commercial or non-commercial websites.",
+        "i4":"update Third Special Item",
+        "i5":"Pellentesque in ultrices mi, quis mollis nulla. Quisque sed commodo est, quis tincidunt nunc.",
+        "i6":"Special Item Fourth",
+        "i7":"Vivamus finibus nulla sed metus sagittis, sed ultrices magna aliquam. Mauris fermentum.",
+        "i8":"Sixth Sense",
+        "i9":"Here is a short text description for sixth item. This text is four lines",
+        "i10":"Seventh Item",
+        "i11":"Curabitur eget erat sit amet sapien aliquet vulputate quis sed arcu."
+     },
+
+      "contact":{
+        //another section all elements are text and c2 is button or link
+        "c0":"update Contact Wave",
+        "c1":"Wave Cafe Template has a video background. You can use this layout for your websites. Please contact Tooplate's Facebook page. Tell your friends about our website.",
+        "c2":"Submit form"
+    },
+
+    "footer":{
+        //another section all elements are textand f1is button or link
+        "f0":"update Copyright 2020 Wave Cafe Design by",
+        "f1":"Tooplate"
+     },
+
+     "images": {
+        // images of drink menu page section
+        "img1": "img/iced-americano.png",
+        "img2": "img/iced-cappuccino.png",
+        "img3": "img/iced-espresso.png",
+        "img4": "img/iced-latte.png",
+        "img5": "img/hot-americano.png",
+        "img6": "img/hot-cappuccino.png",
+        "img7": "img/hot-espresso.png",
+        "img8": "img/hot-latte.png",
+        "img9": "img/smoothie-1.png",
+        "img10": "img/smoothie-2.png",
+        "img11": "img/smoothie-3.png",
+        "img12": "img/smoothie-4.png",
+
+        //image of about section
+        "img13": "img/about-1.png",
+
+        //images of special section
+        "img14": "img/special-01.jpg",
+        "img15": "img/special-02.jpg",
+        "img16": "img/special-03.jpg",
+        "img17": "img/special-04.jpg",
+        "img18": "img/special-05.jpg",
+        "img19": "img/special-06.jpg",
+        "img20": "img/special-07.jpg"
+    }
+
+}    
