@@ -97,29 +97,5 @@
     "footer":{
         "f0":"update Copyright 2020 Wave Cafe Design by",
         "f1":"Tooplate"
-     },
-
-     "images": {
-        "img1": "img/iced-americano.png",
-        "img2": "img/iced-cappuccino.png",
-        "img3": "img/iced-espresso.png",
-        "img4": "img/iced-latte.png",
-        "img5": "img/hot-americano.png",
-        "img6": "img/hot-cappuccino.png",
-        "img7": "img/hot-espresso.png",
-        "img8": "img/hot-latte.png",
-        "img9": "img/smoothie-1.png",
-        "img10": "img/smoothie-2.png",
-        "img11": "img/smoothie-3.png",
-        "img12": "img/smoothie-4.png",
-        "img13": "img/about-1.png",
-        "img14": "img/special-01.jpg",
-        "img15": "img/special-02.jpg",
-        "img16": "img/special-03.jpg",
-        "img17": "img/special-04.jpg",
-        "img18": "img/special-05.jpg",
-        "img19": "img/special-06.jpg",
-        "img20": "img/special-07.jpg"
-    }
-
+     }
 }    

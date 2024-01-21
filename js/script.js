@@ -119,109 +119,119 @@ function updateContent(element, newValue) {
   // Fetch JSON data from the text file
   function updatePageContent(pageName) {
     console.log('Updating content for page:', pageName);
-    fetch('t.txt')
-        .then(response => response.json())
-        .then(jsonData => {
+    const fetchJson1 = fetch('t.txt')
+    .then(response => response.json());
+
+// Fetch the second JSON file
+const fetchJson2 = fetch('image.txt')
+    .then(response => response.json());
+
+// Wait for both fetch operations to complete
+Promise.all([fetchJson1, fetchJson2])
+    .then(jsonDataArray => {
+        // Merge the data from both JSON files
+        const mergedData = Object.assign({}, ...jsonDataArray);
+
             // Update content based on the current page
-            updateContent(title, jsonData.title.title);
+            updateContent(title, mergedData.title.title);
 
-            updateContent(h0, jsonData.header.h0);
-            updateContent(h1, jsonData.header.h1);
-            updateContent(h2, jsonData.header.h2);
-            updateContent(h3, jsonData.header.h3);
-            updateContent(h4, jsonData.header.h4);
+            updateContent(h0, mergedData.header.h0);
+            updateContent(h1, mergedData.header.h1);
+            updateContent(h2, mergedData.header.h2);
+            updateContent(h3, mergedData.header.h3);
+            updateContent(h4, mergedData.header.h4);
 
-            updateLinkContent(nav0, jsonData.nav.nav0);
-            updateLinkContent(nav1, jsonData.nav.nav1);
-            updateLinkContent(nav2, jsonData.nav.nav2);
+            updateLinkContent(nav0, mergedData.nav.nav0);
+            updateLinkContent(nav1, mergedData.nav.nav1);
+            updateLinkContent(nav2, mergedData.nav.nav2);
             
-            updateContent(s1, jsonData.cold.s1);
-            updateContent(s2, jsonData.cold.s2);
-            updateContent(s3, jsonData.cold.s3);
-            updateContent(s4, jsonData.cold.s4);
-            updateContent(s5, jsonData.cold.s5);
-            updateContent(s6, jsonData.cold.s6);
-            updateContent(s7, jsonData.cold.s7);
-            updateContent(s8, jsonData.cold.s8);
-            updateContent(s9, jsonData.cold.s9);
-            updateContent(s10, jsonData.cold.s10);
-            updateContent(s11, jsonData.cold.s11);
+            updateContent(s1, mergedData.cold.s1);
+            updateContent(s2, mergedData.cold.s2);
+            updateContent(s3, mergedData.cold.s3);
+            updateContent(s4, mergedData.cold.s4);
+            updateContent(s5, mergedData.cold.s5);
+            updateContent(s6, mergedData.cold.s6);
+            updateContent(s7, mergedData.cold.s7);
+            updateContent(s8, mergedData.cold.s8);
+            updateContent(s9, mergedData.cold.s9);
+            updateContent(s10, mergedData.cold.s10);
+            updateContent(s11, mergedData.cold.s11);
 
-            updateContent(b0, jsonData.hot.b0);
-            updateContent(b1, jsonData.hot.b1);
-            updateContent(b2, jsonData.hot.b2);
-            updateContent(b3, jsonData.hot.b3);
-            updateContent(b4, jsonData.hot.b4);
-            updateContent(b5, jsonData.hot.b5);
-            updateContent(b6, jsonData.hot.b6);
-            updateContent(b7, jsonData.hot.b7);
-            updateContent(b8, jsonData.hot.b8);
-            updateContent(b9, jsonData.hot.b9);
-            updateContent(b10, jsonData.hot.b10);
-            updateContent(b11, jsonData.hot.b11);
+            updateContent(b0, mergedData.hot.b0);
+            updateContent(b1, mergedData.hot.b1);
+            updateContent(b2, mergedData.hot.b2);
+            updateContent(b3, mergedData.hot.b3);
+            updateContent(b4, mergedData.hot.b4);
+            updateContent(b5, mergedData.hot.b5);
+            updateContent(b6, mergedData.hot.b6);
+            updateContent(b7, mergedData.hot.b7);
+            updateContent(b8, mergedData.hot.b8);
+            updateContent(b9, mergedData.hot.b9);
+            updateContent(b10, mergedData.hot.b10);
+            updateContent(b11, mergedData.hot.b11);
 
-            updateContent(j0, jsonData.juice.j0);
-            updateContent(j1, jsonData.juice.j1);
-            updateContent(j2, jsonData.juice.j2);
-            updateContent(j3, jsonData.juice.j3);
-            updateContent(j4, jsonData.juice.j4);
-            updateContent(j5, jsonData.juice.j5);
-            updateContent(j6, jsonData.juice.j6);
-            updateContent(j7, jsonData.juice.j7);
-            updateContent(j8, jsonData.juice.j8);
-            updateContent(j9, jsonData.juice.j9);
-            updateContent(j10, jsonData.juice.j10);
-            updateContent(j11, jsonData.juice.j11);
+            updateContent(j0, mergedData.juice.j0);
+            updateContent(j1, mergedData.juice.j1);
+            updateContent(j2, mergedData.juice.j2);
+            updateContent(j3, mergedData.juice.j3);
+            updateContent(j4, mergedData.juice.j4);
+            updateContent(j5, mergedData.juice.j5);
+            updateContent(j6, mergedData.juice.j6);
+            updateContent(j7, mergedData.juice.j7);
+            updateContent(j8, mergedData.juice.j8);
+            updateContent(j9, mergedData.juice.j9);
+            updateContent(j10, mergedData.juice.j10);
+            updateContent(j11, mergedData.juice.j11);
 
-            updateContent(a0, jsonData.about.a0);
-            updateContent(a1, jsonData.about.a1);
-            updateContent(a2, jsonData.about.a2);
-            updateContent(a3, jsonData.about.a3);
-            updateContent(a4, jsonData.about.a4);
-            updateContent(a5, jsonData.about.a5);
+            updateContent(a0, mergedData.about.a0);
+            updateContent(a1, mergedData.about.a1);
+            updateContent(a2, mergedData.about.a2);
+            updateContent(a3, mergedData.about.a3);
+            updateContent(a4, mergedData.about.a4);
+            updateContent(a5, mergedData.about.a5);
            
-            updateContent(i0, jsonData.special.i0);
-            updateContent(i1, jsonData.special.i1);
-            updateContent(i2, jsonData.special.i2);
-            updateContent(i3, jsonData.special.i3);
-            updateContent(i4, jsonData.special.i4);
-            updateContent(i5, jsonData.special.i5);
-            updateContent(i6, jsonData.special.i6);
-            updateContent(i7, jsonData.special.i7);
-            updateContent(i8, jsonData.special.i8);
-            updateContent(i9, jsonData.special.i9);
-            updateContent(i10, jsonData.special.i10);
-            updateContent(i11, jsonData.special.i11);
+            updateContent(i0, mergedData.special.i0);
+            updateContent(i1, mergedData.special.i1);
+            updateContent(i2, mergedData.special.i2);
+            updateContent(i3, mergedData.special.i3);
+            updateContent(i4, mergedData.special.i4);
+            updateContent(i5, mergedData.special.i5);
+            updateContent(i6, mergedData.special.i6);
+            updateContent(i7, mergedData.special.i7);
+            updateContent(i8, mergedData.special.i8);
+            updateContent(i9, mergedData.special.i9);
+            updateContent(i10, mergedData.special.i10);
+            updateContent(i11, mergedData.special.i11);
            
         
-            updateContent(c0, jsonData.contact.c0);
-            updateContent(c1, jsonData.contact.c1);
-            updateContent(c2, jsonData.contact.c2);
+            updateContent(c0, mergedData.contact.c0);
+            updateContent(c1, mergedData.contact.c1);
+            updateContent(c2, mergedData.contact.c2);
 
        
-            updateContent(f0, jsonData.footer.f0);
-            updateContent(f1, jsonData.footer.f1);
+            updateContent(f0, mergedData.footer.f0);
+            updateContent(f1, mergedData.footer.f1);
 
-            updateImageSrc(img1, jsonData.images.img1);
-            updateImageSrc(img2, jsonData.images.img2);
-            updateImageSrc(img3, jsonData.images.img3);
-            updateImageSrc(img4, jsonData.images.img4);
-            updateImageSrc(img5, jsonData.images.img5);
-            updateImageSrc(img6, jsonData.images.img6);
-            updateImageSrc(img7, jsonData.images.img7);
-            updateImageSrc(img8, jsonData.images.img8);
-            updateImageSrc(img9, jsonData.images.img9);
-            updateImageSrc(img10, jsonData.images.img10);
-            updateImageSrc(img11, jsonData.images.img11);
-            updateImageSrc(img12, jsonData.images.img12);
-            updateImageSrc(img13, jsonData.images.img13);
-            updateImageSrc(img14, jsonData.images.img14);
-            updateImageSrc(img15, jsonData.images.img15);
-            updateImageSrc(img16, jsonData.images.img16);
-            updateImageSrc(img17, jsonData.images.img17);
-            updateImageSrc(img18, jsonData.images.img18);
-            updateImageSrc(img19, jsonData.images.img19);
-            updateImageSrc(img20, jsonData.images.img20);
+            updateImageSrc(img1, mergedData.images.img1);
+            updateImageSrc(img2, mergedData.images.img2);
+            updateImageSrc(img3, mergedData.images.img3);
+            updateImageSrc(img4, mergedData.images.img4);
+            updateImageSrc(img5, mergedData.images.img5);
+            updateImageSrc(img6, mergedData.images.img6);
+            updateImageSrc(img7, mergedData.images.img7);
+            updateImageSrc(img8, mergedData.images.img8);
+            updateImageSrc(img9, mergedData.images.img9);
+            updateImageSrc(img10, mergedData.images.img10);
+            updateImageSrc(img11, mergedData.images.img11);
+            updateImageSrc(img12, mergedData.images.img12);
+            updateImageSrc(img13, mergedData.images.img13);
+            updateImageSrc(img14, mergedData.images.img14);
+            updateImageSrc(img15, mergedData.images.img15);
+            updateImageSrc(img16, mergedData.images.img16);
+            updateImageSrc(img17, mergedData.images.img17);
+            updateImageSrc(img18, mergedData.images.img18);
+            updateImageSrc(img19, mergedData.images.img19);
+            updateImageSrc(img20, mergedData.images.img20);
             
         
         })
