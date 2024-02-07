@@ -4,11 +4,11 @@
     },
 
      "header": {
-        "h0": "Updated Wave Cafe",
-        "h1": "Updated Drink Menu",
-        "h2": "Updated About Us",
-        "h3": "Updated Special Items",
-        "h4": "Updated Contact"
+        "h0": "Wave Cafe",
+        "h1": "Drink Menu",
+        "h2": "About Us",
+        "h3": "Special Items",
+        "h4": "Contact"
     },
 
      "nav": {
@@ -18,9 +18,9 @@
     },
 
     "cold":{
-        "s0":"updated Iced Americano",
+        "s0":"Iced Americano",
         "s1":"$10.25",
-        "s2":"updated Here is a short description for the first item. Wave Cafe Template is provided by Tooplate.",
+        "s2":"Here is a short description for the first item. Wave Cafe Template is provided by Tooplate.",
         "s3":"Iced Cappuccino",
         "s4":"$12.50",
         "s5":"Here is a list of 4 items or add more. You can use this template for commercial purposes.",
@@ -34,7 +34,7 @@
 
 
     "hot":{
-        "b0":"updated Hot Americano",
+        "b0":"Hot Americano",
         "b1":"$8.50",
         "b2":"Here is a short description for the item along with a squared thumbnail.",
         "b3":"Hot Cappuccino",
@@ -50,7 +50,7 @@
 
 
     "juice":{
-        "j0":"updated Strawberry Smoothie",
+        "j0":"Strawberry Smoothie",
         "j1":"$12.50",
         "j2":"Here is a short description for the item along with a squared thumbnail.",
         "j3":"Red Berry Smoothie",
@@ -65,20 +65,20 @@
     },
 
      "about":{
-        "a0":"update About Wave Cafe",
-        "a1":"update Wave Cafe is a one-page video background HTML CSS template from Tooplate. You can use this for your business websites.",
-        "a2":"update You can also use this for your client websites which you get paid for your website services. Please tell your friends about us.",
-        "a3":"update How we began",
-        "a4":"update If you wish to support us, please contact Tooplate. Thank you. Duis bibendum erat nec ipsum consectetur sodales.",
-        "a5":"update Donec non urna elit. Quisque ut magna in dui mattis iaculis eu finibus metus. Suspendisse vel mi a lacus finibus vehicula vel ut diam. Nam pellentesque, mi quis ullamcorper."
+        "a0":"About Wave Cafe",
+        "a1":"Wave Cafe is a one-page video background HTML CSS template from Tooplate. You can use this for your business websites.",
+        "a2":"You can also use this for your client websites which you get paid for your website services. Please tell your friends about us.",
+        "a3":"How we began",
+        "a4":"If you wish to support us, please contact Tooplate. Thank you. Duis bibendum erat nec ipsum consectetur sodales.",
+        "a5":"Donec non urna elit. Quisque ut magna in dui mattis iaculis eu finibus metus. Suspendisse vel mi a lacus finibus vehicula vel ut diam. Nam pellentesque, mi quis ullamcorper."
      },
 
      "special":{
-        "i0":"update Special One",
+        "i0":"Special One",
         "i1":"Here is a short text description for the first special item. You are not allowed to redistribute this template ZIP file.",
         "i2":"Second Item",
-        "i3":"update You are allowed to download, modify and use this template for your commercial or non-commercial websites.",
-        "i4":"update Third Special Item",
+        "i3":"You are allowed to download, modify and use this template for your commercial or non-commercial websites.",
+        "i4":"Third Special Item",
         "i5":"Pellentesque in ultrices mi, quis mollis nulla. Quisque sed commodo est, quis tincidunt nunc.",
         "i6":"Special Item Fourth",
         "i7":"Vivamus finibus nulla sed metus sagittis, sed ultrices magna aliquam. Mauris fermentum.",
@@ -89,13 +89,13 @@
      },
 
       "contact":{
-        "c0":"update Contact Wave",
+        "c0":"Contact Wave",
         "c1":"Wave Cafe Template has a video background. You can use this layout for your websites. Please contact Tooplate's Facebook page. Tell your friends about our website.",
         "c2":"Submit form"
     },
 
     "footer":{
-        "f0":"update Copyright 2020 Wave Cafe Design by",
+        "f0":"Copyright 2020 Wave Cafe Design by",
         "f1":"Tooplate"
      }
 }    
